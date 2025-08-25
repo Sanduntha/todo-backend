@@ -18,7 +18,7 @@ import com.example.demo.service.TaskService;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "*") // allows frontend access
+@CrossOrigin(origins = "*") 
 public class TaskController {
 
     @Autowired
