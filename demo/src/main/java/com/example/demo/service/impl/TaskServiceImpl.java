@@ -12,6 +12,7 @@ import com.example.demo.repository.TaskRepository;
 import com.example.demo.service.TaskService;
 
 @Service
+
 public class TaskServiceImpl implements TaskService {
 
     @Autowired

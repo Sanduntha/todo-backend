@@ -5,6 +5,7 @@ import java.util.List;
 import com.example.demo.dto.TaskDto;
 
 public interface TaskService {
+    
     TaskDto createTask(TaskDto taskDto);
     TaskDto getTaskById(Long id);
     List<TaskDto> getAllTasks();
